@@ -86,8 +86,183 @@ o/p:4.3
 8.What is the datatype in C language ?And give me the detailed information about that?
 
   *Datatype tells that what type of value holded by a variable,that value may be integer character float.
-  *There are 3 types of datatypesavailable in C/C++:
+  *There are 3 types of datatypes available in C/C++:
 
     1.Primary datatype- character,integer,float,long,double.
     2.Derived datatype- function,pointer
     3.user-defined datatype- array,structure,enum,typedef.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+9.What is the command line argument?
+
+ *Command line argument is used when we want to pass argument from outside the program,means when we want to control of our program from outside in such case we use command line argument.
+
+ Eg: main.cpp
+ #include <iostream>
+ using namespace std;
+ int main(int argc,char**argv) {
+    cout<<argv[0]<<endl;
+    cout<<argv[1]<<endl;
+   
+    return 0;
+ }
+
+g++  main.cpp
+./a.out siva
+o/p:
+./a.out
+siva
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+10.what is pointer?
+
+ *Pointer is like a variable which is able to store the address of the another variable,means whenever you want to store the value we use the normal variables and if you want to store the address we can use pointer.
+ *In case of pointer,we use 2 symbols asterik(*) and ampersand(&). * is meant for value we are dealing with value & means we are dealing with addresses.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+11.what is inheritance?
+
+ *Whenever we want to access properities from parent class to child class we use inheritance.
+ *There 5 types:
+  1.single Inheritance
+ 2.Multiple Inheritance
+ 3.Multilevel Inheritance
+ 4.Hybrid Inheritance
+ 5.Hierarichal Inheritance
+
+
+
+12.What is the main application of inheritance?
+
+ *The main application of inheritance is reuseability of code means we don't need to create the other code if we have already created inside a parent class  so just inherit that class and by using the child class
+  object we can access that data eaisly.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+13.What is polymorphism?
+
+ *Polymorphism means having a many forms (for eg: person behave like student in class,in office behave like employee...etc).
+ *polymorphism is categorizied into groups:
+  1.compile-time Polymorphism
+  2.Run-time polymorphism
+
+The best application for compile-time polymorphism is function overloading.
+The best application for run-time polymorphism is function overriding.
+
+
+
+
+14.When we go function overloading and when we function overriding?
+
+ *When we want to overload the name  and we want to perform different operations with the name in such case we use function overloading.
+ *Whenever iam not satsifying parent class function so then we should write our own function in child class then in such case we use function overriding. 
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+15.what is encapsulation?
+
+ *Encapsulation means binding and grouping the data into single unit.
+ *so class is the best example for encapsulation it binds datamembers and memberfunctions together.
+
+Real-life example:
+*Capsule is wrapping the data into a single unit so to provide a  flexibility and  protection.so like class protecting  its data memnbers and members with access specifier(public,private,protected).
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+16.What is the user-defined data type?
+
+ *User-defined data type means which is defined by the user
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+17.What is difference between structure and union?
+
+ *Structure is used to create different datatypes.But in case of structure whenever we are mentioning any variables so that whole memory is occupied by this structure.
+ *Union is used to create different datatypes.But union is used for the memory management purpose.when we create a union it find which variable is having highest size so only that memory will be allocated
+ and that is a shareable memory which is shared by the other variables in case of union.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+18.What is typedef datatype?
+
+ *It is used to create new datatypes by using existing datatype.
+ *for eg:typedef int INTEGER;
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+19.What is the application of enumeration?
+
+ *It is a user-defined datatype.
+ *Enumeration is used to create number of constants.
+ *Actually in C and C++ we create constants using const keyword and macros,but when you need to create 'n' number of constants we use enumeration.
+ #Eg: enum weekday{monday,tuesday,.....};
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+20.what is function?
+
+ *Function is a self-contained block which is executed seperately and written output to the main function because callable function is our main function.
+
+
+21.Types of functions?
+
+  1.pre-defined functions -which is already been defined inside the library
+  2.user-defined functions -which is created by user
+
+
+
+
+22.Can function return multiple values at a time?
+
+ *Function cannot return multiple values at a time,but by using pointer concept we can return multiple values at a time from functions.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+23.Difference between for loop while loop and do-while loop?
+ 
+ *why we are using  looping is when we want to execute our code repeatedly again and again then you should go for looping.
+ *There are 3 types of looping:
+
+  1.for loop - when range is given then we use for loop.
+  2.while loop -when range is not given means stopping criteria is not given then we use while loop.
+  3.do-while loop -It is used for menu-driven programming concepts.
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+24.What is the application of switch case?
+
+ *Switch case is used for multiple choice statements,like if there is a drwaback of else-if ladder,it will check each case so compile time is waste,in that case switch case is used.
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+25.What is the important of main()?
+
+ *
