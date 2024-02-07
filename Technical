@@ -462,7 +462,142 @@ Real-life example:
 
 45.Why constrol string(eg:%d,%c,%f) in C but not C++ and what is insertion(<<) and what is extraction(>>)?
 
- *C is the first programming language concept.its suppose not too strong its compiler need that what is the my type of the value ,so what's why we have to pass explicitythe control string .
+ *C is the first programming language concept.its suppose not too strong its compiler need that what is the my type of the value ,so what's why we have to pass explicity the control string .
  *But c++ compilation is smarter than c language compiler, so no need to mention their control string .
 
- *
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+46.By using C and C++ language what kind of application we can develop?
+
+ *We can develop many kind of applications like compiler we can design, we can develop may desktop applications like library management ,like graphics data applications we can create ,we can create animation based application
+  and hardware based applications like machine  learning level programming,like system softwares,...etc.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+47. What do you mean by null character?
+
+ *null characters means slash zero(\0) that indicates null character.It indicates that it is end of the string.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+48. What do you mean by static member and static member functions?
+
+ *Whenever staic data member and static member function means we have to use static keyword.
+ *Whenever any variable declared as static,that is static data member and it will assigned only once.
+ *Whenever any function declare as a static keyword .that is called static member function anf these total memory memeory is shareable memory.
+ *static member or static member function can be accessed by classname or object.
+
+
+When to use static variable?
+ *when we dont want to create  duplicate copies ,so we can create static member or static member function.
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+48.Who decide range of datatypes in C and C++?
+
+ *Actually we are not responsible to decide the range or even not only a developer of the language ,it is  depend only on that bit pattern of the programming languages.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+49.What is data abstraction?
+
+ *Data abstraction means hinding internal details and showing only essential details to the user.
+*Data abstraction also achieve that by using pure virtual function.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+50.What is pure virtual function?
+
+ *pure virtual function means any virtual function that is assigned by zero and that virtual function is redefined by the child classes and other classes.so that function is said to be a pure virtual function
+  and that is nothing but abstract class.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+51. In C++ when diamond ring problem will occur?
+
+ *Actually diamond problem will occur in multiple inheritance 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+52. What is pre increment and post increment?
+
+ *pre-increment(++a):
+  *First will increment assign the value.
+
+*post-increment(a++):
+ *First it will assign and it will increment
+ *It is a lateral increment
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+53.What is sizeof operator?
+
+ *It is used to find size of a variable or datatype.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+54.When we pass an array to a function .what actually get it passed?
+
+ *Whenever we are passing an array to a function ,so its base address is passed.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+55.What are actual and formal parameters?
+
+ *actual parameters - passing values at the time of caaling function.
+ *formal parameters -variables which are present in definition of a function.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+56. What is constant?
+
+ *constant means fixed entity ,which value never be changed during the program execution.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+57. What is the difference between C's structure and C++'s structure?
+
+ *In C and C++ structure is used to create heterogenous data.
+ *But the main difference is:
+   In case of C:
+   -------------
+     *We can write only variables means we can  carry only heterogenous data only.
+
+ In case of C++:
+ --------------
+   *We can write functions within a structure also.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+58.What is constructor calling hierarchy?
+
+ *I have base class default constructor and i have derived class default constructor and i created object for  derived class ,so first it will base class constructor next derived class constructor.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+59.
+
