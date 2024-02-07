@@ -295,4 +295,174 @@ Real-life example:
 28.What is friend function?
 
  *friend function is used when we want to access private protected data of a class like public data we can access eaisly but we dont accesss private and protected data.so whenever we want to access private data and 
- protected data member of a class .so then we use friend function.
+  protected data member of a class,so then we use friend function.
+*we have to declare a  fucntion inside a class as a friend, but that definition will be declared outside the class
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+29. what is the default value of an array?
+
+ *Default value of an array may change/varies from compiler to compiler.so some compilers maybe a garbage value  or in some compiler maybe a zero value.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+30.What is the extraction and insertion operation in c++?
+
+ *Double greaterthan sign is an extraction operator.
+ *Double lessthan sign is an insertion operator.
+ *So we are using this for input/output purpose.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+31.What is a template?
+
+ *Template is a very important feature in c++.
+ *Instead of creating function for each and every datatype,so template provide a  facility to create only template type of variables,so it can control any datatype of a variable.
+ *It allows us to work on generic datatypes.
+ *we can say that template is a reuseability of code and code optimization will be there ,so no need to write multiple types of code like for int,float,char,..etc.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+32.What is call by value call by reference and call by address?
+
+ *call by value -means when we call any function by passing actual value.
+ *call by address -means we pass addresses while calling function.
+ *call by reference -It is another concept in c++,it is an alternative name by mentioning ampersand to any variable.
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+33.What is an exception handling?
+
+ *It is a mechanism in c++ to handle runtime errors.
+ *Runtime errors is nothing but exceptions.
+ *It can prevent flow of program execution.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+34.what is compile-time error and run-time error?If it occurs how can you handle it?
+
+ *Compile-time error is due to syntax errors,which comes before running the program.
+
+ *Run-time error is due to bad logic of the program like(eg:array index out of bounds).
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+36.What is translators?
+
+ *Translator is conversion of one language to another language.
+ *We have 3 types of translators in c/c++ programming:
+
+  1.Assembler -translate assembly language to machine language.
+  2.compiler  -converts high-level language to machine language.
+  3.Interpreter  -converts high-level language to machine language.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+37.What do you mean by file handling concept?
+
+ *Before file handling we store data into variables, here data will store temporary,Whenever you want to store data permenantly in hard disk we can go file handling.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+38.How to allocate dynamic memory in c and c++?
+
+ *In C:
+   we can use malloc() calloc() and realloc() to allocate memory dynamically.
+   To deallocate ,we can use free()
+
+*In C++:
+ we can use new keyword to allocate memory dynamically.
+ To deallocate we can use delete keyword.
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+39.What do you mean by manipulators in c++?
+
+ *Manipulators are generally used to perform operations on the output statements.(endl,hex,hexadecimal,ocd,setprecision,setw).
+ *All these manipulators are available in #include<iomanip.h>
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+40.In C++ how can you manage memory?
+
+ *Actually in c++ we use new and delete keyword for memory management purpose.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+41.Explain difference between  C and C++?
+
+*C:
+ It supports procedure oriented language.
+ Virtual functions are not available.
+ It doesnt support polymorphism.
+ Exception handling features are not available in c.
+ It follows top to bottom approach.
+ .....
+
+*C++:
+ It supports object oriented language.
+ virtual functions are available.
+ It supports polymorphism.
+ Exception handling features are available in c++.
+ It follows bottom to top approach.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+42.What is stack overflow error and when does it occurs?
+
+ *Actually it occurs when my stack was full,during runtime we cant handle,but we handle during perform the logic to slove that by passing some conditions.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+43. What is namespace?
+
+ *Namespace is a region that gives scope to an identifier.
+ *Namespaces are used to avoid name conflicts.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+44. What are preprocessor directives in c?
+
+ *Directives are program ,that are compiled before program compilation.
+*These are start with # symbol.
+*These are used to define constants and macros.
+*macros are used to replace the macro with value.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+45.Why constrol string(eg:%d,%c,%f) in C but not C++ and what is insertion(<<) and what is extraction(>>)?
+
+ *C is the first programming language concept.its suppose not too strong its compiler need that what is the my type of the value ,so what's why we have to pass explicitythe control string .
+ *But c++ compilation is smarter than c language compiler, so no need to mention their control string .
+
+ *
