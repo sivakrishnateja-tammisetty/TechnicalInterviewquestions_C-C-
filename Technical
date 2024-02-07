@@ -1,0 +1,93 @@
+11.What kind of storage classes in c and give example also?
+
+  *Storage classes determines that visibility, life time, memory location and what is the initial value of that.
+  *There are 4 types of storage classes in c:
+    1.auto-By default every variable declared as auto,means no need to mention keyword auto.
+
+    2.static-If any variable declared as a static,that considered as static variable.
+
+    3.extern-If any variable declared as a keyword extern ,that considered as extern/global variable.That can be accessed throughout the program and outside of the program also.
+
+    4.register-If any variable declared as a register,that can be considered as register variable.Mainly register variable is used to execution fast programming,like suppose i want to develop application or
+                game which performance will be fast so that variable will be declared inside the  register.
+
+  NOTE:So all variables declared inside RAM but register variable declared inside Registers.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2.What is a variable?
+
+  *Variable is a name given to the memory location or storage area and its value changing during the program execution.
+
+  for eg: I declared a variable x is equal to 20.so what that means is x is  a variable the datatype is integer and it consumes  2/4 byte of memory according to the size of the compiler.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3.What is datatype?
+
+  *Datatype tells that what type of value  holded by the variable.
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4.What is typecasting?
+
+  *Conversion of one datatype into another datatype  is called typecasting means whenever we need to convert from integer to character or character to float or character to integer in such cases we use typecasting.
+  *There are 2 types of typecasting:
+    1.Implicit typecasting -It can be done by compiler itself(Here lower end data assigned to higher end data).
+    2.Explicit typecasting -we have done explicit typecasting forcefully(Here oppose to implicit conversion).
+
+
+Eg:Implicit casting
+#include <iostream>
+using namespace std;
+int main() {
+   int a=2;
+   float b=2.3f;
+   cout<<a+b;
+    return 0;
+}
+o/p:4.3
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+5.What is the purpose to develop the C language?
+
+  *Yes,actually c language was developed to dessign a compactable unix operating system.......
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+6.How to reuse the code in c++?
+
+  *By using polymorphism and inheritance concept we can reuse the code,because int the case of inheritance we reuse the properities of parent class into a child class,but if we can also create header file so
+    by using these header files also we can reuse the code.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+7.Can we create our own header file?
+
+  *Yes,it is possible to create user defined header files,the difference is that if we have a pre-defined header files so that will be included in (<>)angular brackets,but if we have user created header files that will
+    will be included  in double-quotes("").
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+8.What is the datatype in C language ?And give me the detailed information about that?
+
+  *Datatype tells that what type of value holded by a variable,that value may be integer character float.
+  *There are 3 types of datatypesavailable in C/C++:
+
+    1.Primary datatype- character,integer,float,long,double.
+    2.Derived datatype- function,pointer
+    3.user-defined datatype- array,structure,enum,typedef.
